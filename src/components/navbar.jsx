@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import logo from '../assets/logo/aa-logo.png';
-import './Navbar.css';
+import './navbar.css';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
