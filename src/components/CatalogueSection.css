@@ -1,0 +1,177 @@
+
+.catalogue-section {
+  background: #f5f7fa;
+}
+
+.catalogue-wrapper {
+  background: #12345A;
+  border-radius: 12px;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.catalogue-label {
+  color: #78bdf2;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.catalogue-content h2 {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px;
+  line-height: 1.35;
+  margin: 18px 0;
+}
+
+.catalogue-content h2 span {
+  color: #78bdf2;
+  display: block;
+}
+
+.catalogue-content > p {
+  color: #d6e1ec;
+  font-size: 14px;
+  line-height: 1.9;
+  max-width: 520px;
+}
+
+.catalogue-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin: 25px 0;
+}
+
+.catalogue-features div {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.catalogue-features svg {
+  color: #78bdf2;
+}
+
+.catalogue-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  background: #ffffff;
+  color: #12345A;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.catalogue-download-btn:hover {
+  background: #78bdf2;
+  transform: translateY(-3px);
+}
+
+.catalogue-note {
+  display: block;
+  margin-top: 14px;
+  color: #b9cbdc;
+  font-size: 12px;
+}
+
+.catalogue-visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+}
+
+.catalogue-decoration {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  background: rgba(120, 189, 242, 0.15);
+}
+
+.catalogue-book {
+  position: relative;
+  width: 235px;
+  min-height: 310px;
+  padding: 25px;
+  background: linear-gradient(145deg, #fff7dc, #f4d88d);
+  border-radius: 5px 12px 12px 5px;
+  box-shadow: 12px 15px 30px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotate(5deg);
+}
+
+.book-icon {
+  color: #2676B9;
+  margin-bottom: 15px;
+}
+
+.catalogue-book > span:first-of-type {
+  font-size: 22px;
+  font-weight: 800;
+  color: #12345A;
+  letter-spacing: 2px;
+}
+
+.catalogue-book h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #12345A;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.catalogue-book > p {
+  font-weight: 700;
+  color: #2676B9;
+  font-size: 13px;
+}
+
+.book-line {
+  width: 60%;
+  height: 3px;
+  background: #2676B9;
+  margin: 15px 0;
+}
+
+.book-caption {
+  font-size: 10px;
+  color: #526477;
+}
+
+@media (max-width: 768px) {
+  .catalogue-wrapper {
+    grid-template-columns: 1fr;
+    padding: 35px 25px;
+  }
+
+  .catalogue-content h2 {
+    font-size: 27px;
+  }
+
+  .catalogue-visual {
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .catalogue-features {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
