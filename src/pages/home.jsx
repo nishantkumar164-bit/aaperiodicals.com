@@ -7,7 +7,7 @@ import {
   Globe2,
   Library
 } from 'lucide-react';
-import '../styles/Home.css';
+import '../styles/home.css';
 import ServicesSection from '../components/ServicesSection';
 import ClienteleSection from '../components/ClienteleSection';
 import CatalogueSection from '../components/CatalogueSection';
